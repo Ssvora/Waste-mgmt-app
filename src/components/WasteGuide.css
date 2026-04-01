@@ -1,0 +1,101 @@
+.waste-guide h2 {
+  font-size: 1.5rem;
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+}
+
+.guide-intro {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.guide-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.guide-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.guide-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  color: white;
+}
+
+.guide-icon {
+  font-size: 1.5rem;
+}
+
+.guide-card-header h3 {
+  font-size: 1.1rem;
+}
+
+.guide-desc {
+  padding: 1rem 1rem 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.guide-examples {
+  padding: 0 1rem 1rem;
+  font-size: 0.85rem;
+}
+
+.guide-examples strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.guide-examples ul {
+  list-style: none;
+  padding: 0;
+}
+
+.guide-examples li {
+  padding: 0.15rem 0;
+  color: #666;
+}
+
+.guide-examples li::before {
+  content: '• ';
+  color: #aaa;
+}
+
+.guide-tips {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.guide-tips h3 {
+  font-size: 1.2rem;
+  color: #1b5e20;
+  margin-bottom: 1rem;
+}
+
+.guide-tips ul {
+  list-style: none;
+  padding: 0;
+}
+
+.guide-tips li {
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #444;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.guide-tips li:last-child {
+  border-bottom: none;
+}
