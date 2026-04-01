@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ['claude/waste-decision-app-EbI1L']
+    branches: ['main', 'claude/waste-decision-app-EbI1L']
 
 permissions:
   contents: read
